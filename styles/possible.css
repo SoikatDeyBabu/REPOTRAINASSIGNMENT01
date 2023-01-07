@@ -45,11 +45,95 @@
     margin-left: 0;
     margin-right: 80px;
 }
+.sec-one-container{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    gap: 80px;
+}
+.sec-one-img{
+    width: 380px;
+    height: 510px;
+} 
+.sec-one-text{
+    width: 250px;
+    margin-top: 200px;
+    text-align: left;
+}
+.sec-one-description{
+    margin: 18px 0;
+    font-weight: 400;
+    font-size: 12px;
+    color: #444343;
+    list-style: none;
+}
+.sec-one-h3{
+    font-weight: 700;
+    font-size: 25px;
+    color: #151414;
+}
 .sectiontwo{
     margin: 50px 0;
 }
+.sec-two-container{
+    margin-top: 50px;
+    width: 90%;
+    height: 150px;
+    background-color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+.sec-two-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 60px;
+    height: 60px;
+}
+.sec-two-h5{
+    margin: 10px 0;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #151414;
+}
+.sec-two-description{
+    text-align: center;
+    font-weight: 400;
+    font-size: 12px;
+    color: #444343;
+    list-style: none;
+}
 .sectionthree{
     margin: 50px 0;
+}
+.sec-three-container{
+    background-image: url('../images/gradient1.png'),url('../images/watch.png');
+    width: 100%;
+    height: 200px;
+    background-position: 100% 100%;
+    background-repeat: no-repeat;
+    background-blend-mode:normal;
+}
+.sec-three-h3{
+    padding-top: 55px;
+    padding-left: 50px;
+    padding-right: 600px;
+    padding-bottom: 15px;
+    text-align: left;
+    font-weight: 700;
+    font-size: 25px;
+    color: #FFFFFF;
+}
+.sec-three-btn{
+    margin-left: 50px;
+    width: 100px;
+    height: 40px;
+    background-color: white;
+    color: blue;
+    border-radius: 5px;
+    border: 0;
 }
 .footerbg{
     width: 100%;
